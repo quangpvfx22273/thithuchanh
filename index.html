@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+      .container {
+        color: red;
+      }
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="title">
+        <h1>Phan Văn Quang</h1>
+      </div>
+      <div class="name">This is my Website</div>
+      <div class="more">More</div>
+    </div>
+    <ul class="item">
+      <li>item 1</li>
+      <li>item 2</li>
+      <li>item 3</li>
+    </ul>
+  </body>
+</html>
